@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.google.guava:guava:29.0-jre'
+  implementation 'org.mend:angies-party:1.0'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
