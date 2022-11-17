@@ -1,0 +1,31 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  },
+    "hostRules": [
+{
+"matchHost": "https://pkgs.dev.azure.com/angierWS/_packaging/Maven/maven/v1",
+"hostType": "gradle",
+"encrypted": {
+"token": "wcBMA8xOaBJvzJNbAQf5AekDCIFtSq+xNh9AWbX5rHl7peDC+ozXnixsjQ0oG1QBjig3y9CdNs9r1n2r3dV3Lp2IcecSOIE1G+BOWKbP2tyE+iW9avWqdg6rPtjZODwaxyttsTeqOQj9pc5wf/7G3VwJtvCFpzXTeAmNwj44VW4ZkHT2XjgkSBHbsulO5Nfg8j5fRnCM7imN+Rfc5IHsUPk8aOIWTYOpCqPZNUL9hd3KbeaqJociZb+mj2p+Gi0luj97gsbMg9pKPVcMj050jK343gF3pytb0HGIhKsePrT1If7q4y6SUp7gJJBUJPsbZia+TW43u1UUPr14cGFan1NISu9ejUnY4Gg6MqFKLNKEAb2oeyceeotXZQcRPUXm4msXoP/KZMOpd9RWWCjfk48e83YskHcPHb4EP0CkCIsmixDet2wZ7LVJ1tJHa6REod9d+d8VLUEHn44xvMrJBUJaAwN8BipYYxUdL+B2bQbx4ypAESRFyt4GZ2+dW2PgUm2ysInR6x3FxIEapiWlxxwzPfzi"
+}
+}
+]
+}
