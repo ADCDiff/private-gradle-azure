@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'org.mend:angies-party:1.0'
+	compile(group: 'org.angie', name: 'angiegal-party', version: '1.0')
 }
 
 java {
